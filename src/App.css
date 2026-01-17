@@ -723,3 +723,160 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/* Resume-box */
+
+.resume-cta {
+  padding: 60px 0;
+}
+
+.resume-box {
+  background: linear-gradient(90deg, #1f1f1f, #2a2a2a);
+  border-radius: 20px;
+  padding: 40px;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  margin-bottom: 80px;
+  margin-top: -122px;
+}
+
+.resume-box h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.resume-box p {
+  opacity: 0.85;
+  font-size: 16px;
+}
+
+.resume-box .btn {
+  margin-top: 10px;
+}
+
+/* Experience-tracker */
+
+.experience-tracker {
+  padding: 60px 20px;
+  background-color: #0b0b0b;
+  color: white;
+  text-align: center;
+}
+
+.experience-tracker h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Timeline vertical line */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #AA367C, #4A2FBD);
+}
+
+/* Timeline item */
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+/* Right side */
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+/* Left side */
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+/* Dot */
+.timeline-dot {
+  position: absolute;
+  top: 25px;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(90deg, #AA367C, #4A2FBD);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item.right .timeline-dot {
+  left: -8px; /* half dot width to center */
+}
+
+.timeline-item.left .timeline-dot {
+  right: -8px;
+}
+
+/* Content box */
+.timeline-content {
+  background: #1f1f1f;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+  display: inline-block;
+  max-width: 400px;
+}
+
+.timeline-period {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.timeline-content h3 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.timeline-content h4 {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 8px;
+  }
+  .timeline-item {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+  }
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+    text-align: left;
+  }
+  .timeline-item.left .timeline-dot,
+  .timeline-item.right .timeline-dot {
+    left: 0;
+  }
+}
