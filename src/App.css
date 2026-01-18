@@ -880,3 +880,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 0;
   }
 }
+
+
+
+.profile-img {
+  width: 450px;
+  height: 450px;
+  margin-bottom: 90px;
+  border-radius: 50%;
+  animation: float 1s ease-in-out infinite;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}

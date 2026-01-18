@@ -19,6 +19,7 @@ import img5 from "../assets/img/reckon.jpeg";
 import img6 from "../assets/img/l&t.jpeg";
 import img7 from "../assets/img/gyan.jpeg";
 import img8 from "../assets/img/neptel.jpeg";
+import img9 from "../assets/img/leet.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -48,31 +49,34 @@ export const Projects = () => {
 
   const certificates = [
     {
-    id: 0, title: "Larsen & Toubro Edutech",  imgUrl: img0,
+    id: 0, title: "LeetCode Challenge",  imgUrl: img9,
+  },
+    {
+    id: 1, title: "Larsen & Toubro Edutech",  imgUrl: img0,
   },
   {
-    id: 1, title: "Forage",  imgUrl: img1,
+    id: 2, title: "Forage",  imgUrl: img1,
   },
   {
-    id: 2, title: "Hackathon",  imgUrl: img2,
+    id: 3, title: "Hackathon",  imgUrl: img2,
   },
   {
-    id: 3, title: "IIC Regional Meet",  imgUrl: img3,
+    id: 4, title: "AICTE - Yukti Innovation",  imgUrl: img3,
   },
   {
-    id: 4, title: "ISTE Membership", imgUrl: img4,
+    id: 5, title: "ISTE Membership", imgUrl: img4,
   },
   {
-    id: 5, title: "Reckon",  imgUrl: img5,
+    id: 6, title: "Reckon",  imgUrl: img5,
   },
   {
-    id: 6, title: "React.js Certificated", imgUrl: img6,
+    id: 7, title: "React.js Certificated", imgUrl: img6,
   },
   {
-    id: 7, title: "GyanNetra", imgUrl: img7,
+    id: 8, title: "GyanNetra", imgUrl: img7,
   },
   {
-    id: 8, title: "NEPTEL Topper",  imgUrl: img8,
+    id: 9, title: "NEPTEL Topper",  imgUrl: img8,
   },
 ];
 

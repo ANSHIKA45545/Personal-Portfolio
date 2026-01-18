@@ -27,7 +27,7 @@ const experiences = [
 
 export const ExperienceTracker = () => {
   return (
-    <section className="experience-tracker">
+    <section className="experience-tracker" id="journey">
       <h2>My Journey</h2>
       <div className="timeline">
         {experiences.map((exp, index) => (
