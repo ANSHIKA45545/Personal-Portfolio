@@ -4,6 +4,7 @@ import logo from '../assets/img/my_logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/code.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -54,6 +55,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/anshika-yadav-308b6127a/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/ANSHIKA45545"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/anshika_y11/?hl=en"><img src={navIcon3} alt="" /></a>
+                <a href="https://leetcode.com/u/Anshika_Yadav01/"><img src={navIcon4} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
