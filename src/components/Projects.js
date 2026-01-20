@@ -10,6 +10,7 @@ import projImg5 from "../assets/img/extend.png";
 import video1 from "../assets/vdo/insta-improved.mp4";
 import video2 from "../assets/vdo/vdo2.mp4";
 import video3 from "../assets/vdo/vido3.mp4";
+import video4 from "../assets/vdo/vdo4.mp4";
 import img0 from "../assets/img/best.jpeg";
 import img1 from "../assets/img/forage.jpeg";
 import img2 from "../assets/img/hack.jpeg";
@@ -43,7 +44,7 @@ export const Projects = () => {
       imgUrl: projImg4, videoUrl: video1 ,githubUrl: "https://github.com/ANSHIKA45545/Insta-Improve",
     techStack: ["Frontend: React, Axios, Tailwind CSS", "Backend: Node.js, Express" , "Database: MongoDB" ,"Real-time: Socket.IO ", "Machine Learning: Python, scikit-learn / TensorFlow / PyTorch", "Other: dotenv, CORS, JWT"]},
     { id: 5, title: "Youtube Extension", description: "A Chrome extension built with Manifest V3 that enhances the YouTube experience by dynamically modifying page elements using content scripts and event handling", 
-      imgUrl: projImg5, videoUrl: video1 ,githubUrl: "https://github.com/ANSHIKA45545/YouTube-Bookmarks-Extension",
+      imgUrl: projImg5, videoUrl: video4 ,githubUrl: "https://github.com/ANSHIKA45545/YouTube-Bookmarks-Extension",
     techStack: ["Javascript, Chrome Extension, manifest.json"]},
   ];
 

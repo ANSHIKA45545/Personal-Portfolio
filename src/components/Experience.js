@@ -19,7 +19,7 @@ const experiences = [
     id: 3,
     title: "Java Full Stack Developer",
     company: "Infosys SpringBoard",
-    period: "November 2025 - Present",
+    period: "November 2025 - January 2026",
     description: "Built a full-stack e-commerce platform for eco-friendly products. Used Java for backend  and React for frontend. Implemented user authentication, product catalog, and shopping cart features for a seamless shopping experience.",
   },
 ];
