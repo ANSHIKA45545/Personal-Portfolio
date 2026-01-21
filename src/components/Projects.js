@@ -11,6 +11,7 @@ import video1 from "../assets/vdo/insta-improved.mp4";
 import video2 from "../assets/vdo/vdo2.mp4";
 import video3 from "../assets/vdo/vido3.mp4";
 import video4 from "../assets/vdo/vdo4.mp4";
+import video5 from "../assets/vdo/ecoBazar.mp4";
 import img0 from "../assets/img/best.jpeg";
 import img1 from "../assets/img/forage.jpeg";
 import img2 from "../assets/img/hack.jpeg";
@@ -31,8 +32,9 @@ export const Projects = () => {
 
 
   const projectsTab1 = [
-    { id: 1, title: "EcoBazaarX-Carbon-Footprint-Aware-Shopping ", description: "MERN | End-to-end event booking", imgUrl: projImg1, videoUrl: video1,githubUrl: "https://github.com/yourname/portfolio",
-    techStack: ["React", "Bootstrap"] },
+    { id: 1, title: "EcoBazaarX-Carbon-Footprint-Aware-Shopping ", description: "EcoBazaar is an innovative full-stack e-commerce platform designed to promote environmentally responsible shopping. The platform displays product carbon footprints, enabling users to make greener purchasing decisions. Users can browse products, filter for low-carbon alternatives, view cart-level carbon emissions, and receive eco-friendly recommendations. I contributed by developing the backend using Java Spring Boot, implementing REST APIs, JWT-based authentication, and role-based access, and designing the MySQL database schema. The project showcases secure, scalable, and data-driven e-commerce solutions with a focus on sustainability.",
+      imgUrl: projImg1, videoUrl: video5, githubUrl: "https://github.com/ANSHIKA45545/EcoBazaarX-Carbon-Footprint-Aware-Shopping",
+    techStack: ["TypeScript", "Java Spring Boot", "MySQL", "JWT Authentication"] },
     { id: 2, title: "Event Management Website", description: "This is a simple and responsive Event Management web app where users can sign up, log in, log out, and create events. Built with HTML, JavaScript, and styled using Tailwind CSS. It includes basic authentication and event handling features.",
        imgUrl: projImg2,videoUrl:video3 ,githubUrl: "https://github.com/ANSHIKA45545/Event_Management",
     techStack: ["Frontend: React (Vite) , Tailwind CSS", "Backend: Node.js, Express.js", "Database: MongoDB", "API Communication: REST APIs", "Tools & Utilities: Git, GitHub, VS Code"]},
