@@ -7,11 +7,13 @@ import projImg2 from "../assets/img/event.png";
 import projImg3 from "../assets/img/cinema.png";
 import projImg4 from "../assets/img/insta.png";
 import projImg5 from "../assets/img/extend.png";
+import projImg6 from "../assets/img/url.png";
 import video1 from "../assets/vdo/insta-improved.mp4";
 import video2 from "../assets/vdo/vdo2.mp4";
 import video3 from "../assets/vdo/vido3.mp4";
 import video4 from "../assets/vdo/vdo4.mp4";
 import video5 from "../assets/vdo/ecoBazar.mp4";
+import video6 from "../assets/vdo/URL-Shortner.mp4";
 import img0 from "../assets/img/best.jpeg";
 import img1 from "../assets/img/forage.jpeg";
 import img2 from "../assets/img/hack.jpeg";
@@ -48,6 +50,9 @@ export const Projects = () => {
     { id: 5, title: "Youtube Extension", description: "A Chrome extension built with Manifest V3 that enhances the YouTube experience by dynamically modifying page elements using content scripts and event handling", 
       imgUrl: projImg5, videoUrl: video4 ,githubUrl: "https://github.com/ANSHIKA45545/YouTube-Bookmarks-Extension",
     techStack: ["Javascript, Chrome Extension, manifest.json"]},
+    { id: 6, title: "URL-Shortner", description: "This project allows users to shorten long URLs, track total clicks, generate QR codes for easy sharing, and copy links instantly. Frontend is built with React + Vite, backend with Node.js + Express, and MongoDB stores URL and visit data.", 
+      imgUrl: projImg6, videoUrl: video6 ,githubUrl: "https://github.com/ANSHIKA45545/URL-Shortner",
+    techStack: ["Frontend: React, Tailwind CSS", "Backend: Node.js, Express" , "Database: MongoDB", "API Communication: REST APIs", "Tools & Utilities: Git, GitHub, VS Code"]},
   ];
 
   const certificates = [
