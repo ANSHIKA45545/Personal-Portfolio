@@ -37,6 +37,8 @@ export const Skills = () => {
               <Carousel
                 responsive={responsive}
                 infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={2000}
                 className="owl-carousel owl-theme skill-slider"
               >
                 {skills.map((skill, index) => (
