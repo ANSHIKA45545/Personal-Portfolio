@@ -32,7 +32,7 @@ export const ResumeCTA = () => {
                     {/* RIGHT BUTTON */}
                     <Col md={4} className="text-md-end text-center">
                       <a
-                        href="/Anshika Yadav.pdf"
+                        href="/Anshika_Yadav.pdf"
                         download
                         className="btn btn-primary btn-lg"
                       >
